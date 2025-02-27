@@ -26,7 +26,7 @@
     "express": "^4.18.2",
     "gradient-string": "^3.0.0"
   },
-   "packageManager": "pnpm@latest" ,
+   "packageManager": "pnpm@10.5.2" ,
   "devDependencies": {
     "prettier": "3.2.1"
   }
