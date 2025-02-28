@@ -22,7 +22,7 @@ const git = new Git(git_url);
 const server = http.createServer();
 const app = express();
 const packageInfo = JSON.parse(fs.readFileSync("package.json"));
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 80;
 
 logging.set_level(logging.ERROR);
 wisp.options.dns_method = "resolve";
